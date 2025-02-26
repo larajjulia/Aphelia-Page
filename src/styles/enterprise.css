@@ -33,4 +33,8 @@
     #enterprise_dono {
         display: none;
     }
+
+    #enterprise figcaption {
+        display: none;
+    }
 }
