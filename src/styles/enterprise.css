@@ -24,3 +24,13 @@
     text-align: center;
     font-weight: 600;
 }
+
+@media  screen and (max-width:1170px) {
+    #enterprise {
+        flex-direction: column;
+    }
+
+    #enterprise_dono {
+        display: none;
+    }
+}
