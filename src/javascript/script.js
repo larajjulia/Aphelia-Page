@@ -64,4 +64,10 @@ $(document).ready(function() {
         duration: 1500,
         distance: '20%'
     });
+
+    ScrollReveal().reveal('#questions', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    });
 });
