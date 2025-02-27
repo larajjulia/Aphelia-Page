@@ -65,7 +65,7 @@ $(document).ready(function() {
         distance: '20%'
     });
 
-    ScrollReveal().reveal('#questions', {
+    ScrollReveal().reveal('#questions_content', {
         origin: 'right',
         duration: 1000,
         distance: '20%'
