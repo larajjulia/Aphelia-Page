@@ -6,6 +6,8 @@
 @import url('footer.css');
 @import url('enterprise.css');
 @import url('questions.css');
+@import url('form.css');
+@import url('thanks.css');
 
 :root {
     --color-primary-1: #ffffff;

@@ -1,0 +1,14 @@
+#thanks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#thanks p {
+    padding: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
