@@ -158,7 +158,7 @@
     }
 }
 
-@media  screen and (max-width:560px) {
+@media  screen and (max-width:450px) {
     #contact_content {
         width: 350px;
         height: 400px;
