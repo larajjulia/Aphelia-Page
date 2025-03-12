@@ -75,7 +75,23 @@
 
     <section id="contact_form" >
         <div id="contact_content">
-            <h2 class="section-subtitle">Faça um Orçamento</h2>
+            <h2 class="section-subtitle">Faça um Orçamento via E-mail</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post" id="contact_item">
+                <label class="contact_label">Nome:</label>
+                <input class="contact_input" type="text" name="name" placeholder="Digite seu nome aqui" required="">
+                <label class="contact_label">E-mail:</label>
+                <input class="contact_input" type="email" name="email" placeholder="Digite seu e-mail aqui" required="">
+                <label class="contact_label">Mensagem</label>
+                <textarea class="contact_textarea" name="message" id="form_message" cols="50" rows="4" placeholder="Escreva aqui..." required=""></textarea>
+                <button class="btn-default" type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="eb127d52-bcef-4b62-b20c-5840a845f68c">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/thanks.html">
+            </form>
+        </div>
+        <br>
+        <div id="contact_content">
+            <h2 class="section-subtitle">Faça um Orçamento via WhatsApp</h2>
             <form action="https://api.staticforms.xyz/submit" method="post" id="contact_item">
                 <label class="contact_label">Nome:</label>
                 <input class="contact_input" type="text" name="name" placeholder="Digite seu nome aqui" required="">

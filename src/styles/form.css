@@ -1,3 +1,7 @@
+section#contact_form {
+    flex-direction: column;
+}
+
 #contact_form {
     display: flex;
     align-items: center;
