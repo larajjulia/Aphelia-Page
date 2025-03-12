@@ -65,6 +65,7 @@
 
 #contact_item button {
     font-size: 15px;
+    text-decoration: none;
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -76,6 +77,12 @@
     background-color: #ffffff;
     color: #1d1d1d;
     border-radius: 10px;
+}
+
+p#wpp_contact {
+    font-size: 20px;
+    padding: 30px;
+    font-weight: 500;
 }
 
 @media  screen and (max-width:1700px) {

@@ -8,6 +8,7 @@
 @import url('questions.css');
 @import url('form.css');
 @import url('thanks.css');
+@import url('whatsapp.css');
 
 :root {
     --color-primary-1: #ffffff;
