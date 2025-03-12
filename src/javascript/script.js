@@ -70,4 +70,17 @@ $(document).ready(function() {
         duration: 1000,
         distance: '20%'
     });
+
+    
+    ScrollReveal().reveal('#contact_form', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#thanks', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    });
 });
