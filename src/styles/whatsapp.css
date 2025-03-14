@@ -5,3 +5,10 @@
     z-index: 9999;
     text-decoration: none;
 }
+
+@media  screen and (max-width:1700px) {
+    .whats {
+        bottom: 10px;
+        right: 30px;
+    }
+}
