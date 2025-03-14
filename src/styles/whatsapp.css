@@ -8,7 +8,7 @@
 
 @media  screen and (max-width:1700px) {
     .whats {
-        bottom: 10px;
-        right: 30px;
+        width: 75;
+        right: 40px;
     }
 }
