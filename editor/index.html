@@ -19,26 +19,38 @@
 </head>
 <body>
 
-  <h1>Nova Postagem</h1>
+  <header id="admin">
+    <nav id="navbar2">
+        <img src="../imagens/logo_completa.png" alt="Logo da empresa Aphélia Engenharia" id="nav_logo" width="100" height="63">
+        
+        <button class="btn-default">
+          <a href="../interface.html">Volte para a Página de Administrador</a>
+        </button>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nova Postagem</h1>
   
-  <form id="postForm">
-    <label for="title">Título</label>
-    <input type="text" id="title" name="title" required>
+    <form id="postForm">
+      <label for="title">Título</label>
+      <input type="text" id="title" name="title" required>
 
-    <label for="tags">Tags (separadas por vírgula)</label>
-    <input type="text" id="tags" name="tags">
+      <label for="tags">Tags (separadas por vírgula)</label>
+      <input type="text" id="tags" name="tags">
 
-    <label for="coverImage">Imagem de Capa</label>
-    <input type="file" id="coverImage" name="coverImage" accept="image/*">
+      <label for="coverImage">Imagem de Capa</label>
+      <input type="file" id="coverImage" name="coverImage" accept="image/*">
 
-    <label for="illustrativeImage">Imagem Ilustrativa</label>
-    <input type="file" id="illustrativeImage" name="illustrativeImage" accept="image/*">
+      <label for="illustrativeImage">Imagem Ilustrativa</label>
+      <input type="file" id="illustrativeImage" name="illustrativeImage" accept="image/*">
 
-    <label for="content">Texto da Postagem</label>
-    <textarea id="content" name="content" rows="10" required></textarea>
+      <label for="content">Texto da Postagem</label>
+      <textarea id="content" name="content" rows="10" required></textarea>
 
-    <button type="submit">Publicar</button>
-  </form>
+      <button type="submit">Publicar</button>
+    </form>
+  </main>
 
 </body>
 </html>

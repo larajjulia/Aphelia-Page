@@ -1,4 +1,11 @@
-body {
+#navbar2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
     font-family: "Atkinson Hyperlegible Next", serif;
     max-width: 700px;
     margin: 40px auto;
@@ -42,5 +49,5 @@ body {
   }
 
   button:hover {
-    background-color: #0056b3;
+    background-color: #f8d098;
   }
