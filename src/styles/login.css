@@ -24,7 +24,7 @@ main {
     background-color: #f8d098;
     border-radius: 5px;
     width: 400px;
-    height: 400px;
+    height: 450px;
 }
 
 .title_login {
@@ -66,5 +66,21 @@ img {
 }
 
 .login_input:focus {
+    border-radius: 10px;
+}
+
+#login_form button {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+#login_form button:hover {
+    background-color: #ffffff;
+    color: #1d1d1d;
     border-radius: 10px;
 }
