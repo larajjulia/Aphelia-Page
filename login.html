@@ -20,22 +20,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
-<body id="login">
+<body>
+    <header id="admin">
+        <nav id="navbar_login">
+            <img src="imagens/logo_completa.png" alt="Logo da empresa Aphélia Engenharia" id="nav_logo" width="100" height="63">
+            
+            <h1 class="title_login">
+                Página de Administrador
+            </h1>
+        </nav>
+    </header>
+    <main>
+        <div id="login_content">
+            <img src="imagens/do-utilizador (1).png" alt="" width="100px" height="100px">
 
-    <div id="login_content">
-        <img src="imagens/do-utilizador (1).png" alt="" width="100px" height="100px">
+            <h1 class="title_login">
+                LOGIN
+            </h1>
 
-        <h1 class="section-subtitle2">
-            LOGIN
-        </h1>
-
-        <form action="" id="login_form">
-            <label for="" class="login_label">Nome de Usuário:</label>
-            <input type="text" name="user" placeholder="Digite o nome de usuário aqui" class="login_input" required>
-            <label for="" class="login_label">Senha:</label>
-            <input type="password" name="password" placeholder="Digite sua senha aqui" class="login_input" required>
-        </form>
-    </div>
+            <form action="" id="login_form">
+                <label for="" class="login_label">Nome de Usuário:</label>
+                <input type="text" name="user" placeholder="Digite o nome de usuário aqui" class="login_input" required>
+                <label for="" class="login_label">Senha:</label>
+                <input type="password" name="password" placeholder="Digite sua senha aqui" class="login_input" required>
+            </form>
+        </div>
+    </main>
 
     <script src="src/javascript/script.js"></script>
     <script src="src/javascript/popup.js"></script>
